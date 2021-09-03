@@ -1,0 +1,191 @@
+
+    body {
+      box-sizing: border-box;
+      font-size: 200%;
+      font-family: Arial, sans-serif;
+      }
+ header div div {
+  height: 130px;
+  background-color:#556270;
+  padding: 50px 0px;
+ }
+ main > div {
+  padding-left: 3%;
+  padding-right: 3%;
+ }
+ 
+ h1 {
+  display: block;
+  margin-top: 70px;
+  line-height: 50px;
+}
+  img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+    text-align: center;
+          }
+main div section p {
+  display: block;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  
+}
+
+
+footer a {
+  color: black;
+  text-decoration: underline;
+  
+  
+}
+footer div {
+  margin-bottom: 50px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+h1, h3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 250%;
+  font-weight: 700;
+ 
+  margin-bottom:20px;
+  
+}
+footer a {
+  display: block;
+  margin-top: 40px;
+}
+#kxh {
+   display: none;
+  }
+ /* responsive */
+ 
+@media only screen and (min-width: 768px) {
+   header div div {
+  height: 130px;
+  background-color:#556270;
+  padding: 70px 0px;
+ }
+ 
+  footer a  {
+    color: #8cadd0 ;
+     }
+    footer a {
+  display: block;
+  margin-top: 20px;
+  
+}
+
+@media only screen and (min-width: 992px) {
+body {
+ 
+width: 83.33333%;
+margin:auto;
+
+}
+ main {
+  display: inline-block;
+  background-color: #efefef;
+ }
+ 
+ 
+ 
+ 
+    header div div {
+  height: 130px;
+  background-color:white;
+  padding: 50px 0px;
+ }
+ 
+  header a {
+    color: black;
+    font-size: 90%;
+ }
+   img {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+   
+  
+
+#banner {
+    width: 100%;
+    height: auto;
+
+}
+#banner  h1 {
+    position: absolute;
+    top: 30px;
+    left: 4%;
+    color: white;
+    font-size: 260%;
+    font-family: 'Hina Mincho', serif;
+    
+}
+#banner  p {
+    position: absolute;
+    top: 200px;
+    left: 4%;
+    color: white;
+     font-size: 125%;
+     font-family: Arial, sans-serif;
+}
+#kxh {
+
+   display: inline;
+   width: 100%;
+   height: auto;
+   margin-bottom: 0;
+ 
+}
+ #border {
+  font-weight: 700;
+  font-size: 200%;
+  display: block;
+  margin-top: 50px;
+  line-height: 50px;
+  margin-left: 5%;
+  
+}
+main div section > p {
+ margin-left: 5%;
+}
+  footer {
+  padding-left: 7%;
+ padding-right: 7%;
+    
+   font-size: 80%;
+ 
+    margin: auto;
+   background-color: #f7f7f7;
+   
+  }
+  footer h3 {
+   font-size: 150%
+   
+  }
+picture {
+ display:block;
+
+
+ padding-left: 4%;
+ padding-right: 4%;
+}
+  .col-md-12 {
+   padding-left:0;
+   padding-right :0; 
+  }
+
+   
+ }
+  
+
+
+
+
